@@ -5,4 +5,4 @@ Please check link below for more details!
 
 http://notcamelcase.github.io/Arcade-Racing/
 
-[img]http://i.imgur.com/F07SOBX.jpg?1[/img]
+<a href="http://imgur.com/F07SOBX"><img src="http://i.imgur.com/F07SOBX.jpg?1" title="source: imgur.com" /></a>
