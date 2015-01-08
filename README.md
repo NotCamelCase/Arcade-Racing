@@ -1,5 +1,5 @@
 # Grad Project: Arcade Racing
-Welcome to the repository of my graduation project. It's a 3D Arcade Racing game.
+Welcome to the repository of my graduation project. Arcade Racing is a 3D racing game with single-player Practice and Multiplayer modes.
 
 Please check link below for more details!
 
