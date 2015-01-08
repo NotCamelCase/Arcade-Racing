@@ -10,6 +10,7 @@
 
 #include "Game.h"
 #include "Utils.h"
+#include "Screen\CreditsScreen.h"
 #include "Screen\MainMenuScreen.h"
 #include "Screen\GamePlayScreen.h"
 #include "Screen\OnlineLobbyScreen.h"
@@ -139,6 +140,9 @@ void ScreenManager::changeScreen(ScreenTag tag, bool pausePrevious)
 			break;
 		case ScreenTag::GAME_LOBBY:
 			nextScreen = new OnlineLobbyScreen(this, tag);
+			break;
+		case ScreenTag::CREDITS:
+			nextScreen = new CreditsScreen(this, tag);
 			break;
 		default:
 			break;

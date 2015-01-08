@@ -177,6 +177,8 @@ void MainMenuScreen::showCredits()
 {
 	m_logger->logMessage("MainMenuScreen::showCredits()");
 	m_clickSound->play();
+
+	m_screenManager->changeScreen(ScreenTag::CREDITS, true);
 }
 
 void MainMenuScreen::exitGame()

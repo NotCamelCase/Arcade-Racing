@@ -1,5 +1,7 @@
 #pragma once
 
+#include <OgreVector3.h>
+
 class Player;
 
 /* NetworkManager already manages internal connection states, it's enough to know if GameClient's connection is alive */
@@ -26,6 +28,12 @@ public:
 	unsigned int getKeyFlags() const { return m_keyFlags; }
 	void setKeyFlags(unsigned int kf) { m_keyFlags = kf; }
 
+	const Ogre::Vector3& getClientPosition() { return m_clientPos; }
+	const Ogre::Vector3& getClientDirection() { return m_clientDir; }
+
+	void setClientPosition(const Ogre::Vector3& pos) { m_clientPos = pos; }
+	void setClientDirection(const Ogre::Vector3& dir) { m_clientDir = dir; }
+
 	bool isRemotePlayer() const;
 
 	bool operator<(GameClient* other) { return m_playerRepresented < other->getPlayerRepresented(); }
@@ -45,4 +53,7 @@ private:
 
 	// Input data to be exchanged
 	unsigned int m_keyFlags;
+
+	Ogre::Vector3 m_clientPos;
+	Ogre::Vector3 m_clientDir;
 };

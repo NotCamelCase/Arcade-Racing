@@ -1,10 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MyGUI type="Layout" version="3.2.0">
-    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="background">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" layer="Main" name="background">
         <Property key="InheritsPick" value="true"/>
         <Property key="NeedKey" value="false"/>
         <Property key="NeedMouse" value="false"/>
-        <Property key="ImageTexture" value="track_1.png"/>
+        <Property key="ImageTexture" value="track_2.png"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.628125 0.0805556 0.167969 0.0555556">
+            <Property key="Caption" value="Sole Developer:"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="0.0233918 0 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0.217161 0.182962 0.292398"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.8125 0.0805556 0.179688 0.0555556">
+            <Property key="Caption" value="Tayfun Kayhan"/>
+            <Property key="FontHeight" value="35"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0.631579 0.631579 0.631579"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0078125 0.951389 0.359375 0.0430556">
+            <Property key="Caption" value="You can view code at https://github.com/NotCamelCase/Arcade-Racing"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontHeight" value="15"/>
+        </Widget>
     </Widget>
-    <CodeGeneratorSettings/>
+    <CodeGeneratorSettings>
+        <Property key="IncludeDirectory" value=""/>
+        <Property key="PanelName" value=""/>
+        <Property key="PanelNamespace" value=""/>
+        <Property key="SourceDirectory" value=""/>
+    </CodeGeneratorSettings>
 </MyGUI>
