@@ -1,0 +1,229 @@
+material concrete_wall
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Concrete_Barrier_c.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material grass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Grass_01_c.tif
+			}
+		}
+
+	}
+
+}
+
+material lambert1
+{
+	technique
+	{
+		pass
+		{	
+			ambient 0.5 0.5 0.5 0.0
+			diffuse 0.5 0.5 0.5 0.0
+			scene_blend alpha_blend
+			depth_write off
+			//transparent_sorting off
+		}
+	}
+}
+
+material outer_fence
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Outer_Fence_01_c.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material rails1metal_barrier
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Metal_Barrier_2_c.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material railsmetal_barrier
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Metal_Barrier_2_c.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material tarmac
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Tarmac_c.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material track1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Race_Track_Base_c.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material track_finish_line
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 1.28
+
+			texture_unit
+			{
+				texture Race_Track_Finishing_Line_c.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material tree1lambert2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			emissive 0.0906082 0.0813872 0.0669107 1
+
+			texture_unit
+			{
+				texture Foliage_Bark_01_Diffuse_01.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material tree1Leaves01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			specular 0 0 0 1 6.02353
+			emissive 0.0475458 0.11947 0.011028 1
+			//scene_blend add
+
+			texture_unit
+			{
+				texture Foliage_Leaves_01_DiffuseMask_01.tga
+			}
+
+			texture_unit
+			{
+				//colour_op_ex blend_manual src_manual src_current 0.952454 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.952454
+			}
+		}
+
+	}
+
+}

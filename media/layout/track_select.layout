@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" layer="Back" name="background">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Property key="ImageTexture" value="blue_back.jpg"/>
+        <Widget type="Button" skin="Button" position_real="0.0265625 0.875 0.165625 0.0902778" name="backButton">
+            <Property key="Caption" value="BACK"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="Colour" value="0.353613 0.643275 0.412451"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.815625 0.875 0.165625 0.0888889" name="trackSelectButton">
+            <Property key="Caption" value="SELECT"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="Colour" value="0.934251 0.0110119 0.94152"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.34375 0.888889 0.33125 0.0638889">
+            <Property key="Caption" value="Select a track to race in!"/>
+            <Property key="FontHeight" value="35"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="0 0 0"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.199219 0.0444444 0.625 0.568056" name="trackImage">
+            <Property key="ImageTexture" value="track_1.png"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.195313 0.666667 0.148438 0.0555556">
+            <Property key="Caption" value="Track Name:"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextColour" value="0 0 0"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.40625 0.666667 0.417969 0.0416667" name="trackNameLabel">
+            <Property key="Caption" value="Default Track Name"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextColour" value="1 0 0"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.195313 0.743056 0.1125 0.0444444">
+            <Property key="FontHeight" value="30"/>
+            <Property key="Caption" value="Laps:"/>
+            <Property key="TextColour" value="0 0 0"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.40625 0.743056 0.417969 0.0416667" name="lapLabel">
+            <Property key="Caption" value="Default lap"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextColour" value="1 0 0"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.902344 0.25 0.0742188 0.138889" name="nextButton">
+            <Property key="ImageTexture" value="next.png"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.0625 0.25 0.0710938 0.138889" name="prevButton">
+            <Property key="ImageTexture" value="prev.png"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

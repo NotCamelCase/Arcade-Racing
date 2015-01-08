@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" layer="Main" name="background">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Property key="InheritsPick" value="true"/>
+        <Widget type="Widget" skin="PanelSkin" position_real="0.175 0.125 0.65 0.75" name="panel">
+            <Property key="InheritsAlpha" value="false"/>
+            <Property key="Alpha" value="0.61"/>
+            <Widget type="Button" skin="Button" position_real="0.0360577 0.855556 0.314904 0.105556" name="backToMenuButton">
+                <Property key="Caption" value="Back to Menu"/>
+                <Property key="FontHeight" value="30"/>
+                <Property key="TextAlign" value="HCenter VCenter"/>
+                <Property key="InheritsAlpha" value="false"/>
+                <Property key="Colour" value="0.836257 0.308095 0.308095"/>
+            </Widget>
+            <Widget type="Button" skin="Button" position_real="0.646635 0.855556 0.314904 0.105556" name="gotoTracksButton">
+                <Property key="FontHeight" value="30"/>
+                <Property key="TextAlign" value="HCenter VCenter"/>
+                <Property key="InheritsAlpha" value="false"/>
+                <Property key="Colour" value="0 1 0.203125"/>
+                <Property key="Caption" value="Race Again"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.015625 0.203704 0.271635 0.442593">
+                <Property key="ImageTexture" value="flag_left.png"/>
+                <Property key="InheritsAlpha" value="false"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.709135 0.203704 0.271635 0.442593">
+                <Property key="ImageTexture" value="flag_right.png"/>
+                <Property key="InheritsAlpha" value="false"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.210337 0.0555556 0.637019 0.0925926">
+                <Property key="FontHeight" value="45"/>
+                <Property key="Caption" value="CONGRATULATIONS!"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="1 1 1"/>
+                <Property key="InheritsAlpha" value="false"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.378606 0.192593 0.252404 0.355556">
+                <Property key="ImageTexture" value="cup.png"/>
+                <Property key="InheritsAlpha" value="false"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.366587 0.562963 0.266827 0.0925926" name="raceTimeLabel">
+                <Property key="InheritsAlpha" value="false"/>
+                <Property key="FontHeight" value="45"/>
+                <Property key="Caption" value="02:12.35"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="0.282367 0.859649 0.241305"/>
+                <Property key="TextShadow" value="true"/>
+                <Property key="TextShadowColour" value="0.272478 0 0.982456"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

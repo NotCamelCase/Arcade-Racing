@@ -1,0 +1,23 @@
+vertex_program Ogre/Compositor/StdQuad_Cg_vp hlsl
+{
+	source StdQuad_vp.cg
+	entry_point StdQuad_vp
+	target vs_2_0
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+	}
+}
+
+vertex_program Ogre/Compositor/StdQuad_GLSL_vp glsl
+{
+	source StdQuad_vp.glsl
+}
+
+
+vertex_program Ogre/Compositor/StdQuad_vp unified
+{
+	delegate Ogre/Compositor/StdQuad_GLSL_vp
+	delegate Ogre/Compositor/StdQuad_Cg_vp
+}

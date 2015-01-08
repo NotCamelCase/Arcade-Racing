@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" layer="Main" name="background">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.804688 0.0180556 0.101563 0.0888889">
+            <Property key="FontHeight" value="44"/>
+            <Property key="Caption" value="Laps"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="0.900585 0.748965 0.321261"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0.748538 0.350193 0.350193"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.917969 0.0180556 0.0671875 0.0888889" name="currentLapLabel">
+            <Property key="FontHeight" value="50"/>
+            <Property key="Caption" value="2/4"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="0.886719 1 0"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0117188 0.918056 0.273438 0.0680556" name="playerNameLabel">
+            <Property key="FontHeight" value="38"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Player Tayfun"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0.265022 0.133785 0.953216"/>
+            <Property key="TextColour" value="0 0 0"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="15 15 276 66">
+            <Property key="ImageTexture" value="Border_Center.png"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.362319 0.19697 0.532609 0.606061" align="Right VCenter" name="timeLabel">
+                <Property key="Caption" value="01:56.34"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="FontHeight" value="35"/>
+                <Property key="TextColour" value="1 0 0.328125"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.0434783 0 0.268116 0.848485">
+                <Property key="ImageTexture" value="ktimer.png"/>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.804688 0.125 0.101563 0.0888889">
+            <Property key="Caption" value="Pos"/>
+            <Property key="FontHeight" value="44"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="0.900585 0.748965 0.321261"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0.748538 0.350193 0.350193"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.917969 0.125 0.0671875 0.0888889" name="posLabel">
+            <Property key="Caption" value="1/1"/>
+            <Property key="FontHeight" value="50"/>
+            <Property key="TextColour" value="0.886719 1 0"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

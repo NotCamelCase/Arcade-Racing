@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" align="Left Top" layer="Back" name="backImg">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Property key="ImageTexture" value="blue_back.jpg"/>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.0390625 0.638889 0.05 0.152778" name="prevBtn">
+            <Property key="ImageTexture" value="prev.png"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.585938 0.643056 0.05 0.143056" name="nextBtn">
+            <Property key="ImageTexture" value="next.png"/>
+        </Widget>
+        <Widget type="ImageBox" skin="Canvas" position_real="0.0390625 0.0430556 0.589063 0.543056" name="vehicleModel">
+            <Property key="ImageTexture" value="nimrud_preview.png"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.0234375 0.880556 0.15625 0.0888889" name="backBtn">
+            <Property key="Caption" value="BACK"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Colour" value="0.818713 0.296843 0.296843"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.828125 0.880556 0.15625 0.0888889" name="selectBtn">
+            <Property key="Caption" value="SELECT"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Colour" value="0.476514 0.830409 0.403064"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.296875 0.893056 0.397656 0.0555556" name="infoLabel">
+            <Property key="FontHeight" value="30"/>
+            <Property key="Caption" value="Select a vehicle!"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="0 0 0"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.640625 0.0555556 0.0984375 0.0430556">
+            <Property key="FontHeight" value="30"/>
+            <Property key="Caption" value="Speed"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="0.976608 0.972793 0"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.640625 0.205556 0.0976563 0.0555556">
+            <Property key="Caption" value="Engine"/>
+            <Property key="FontHeight" value="29"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="0.976608 0.972793 0"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="ProgressBar" skin="ProgressBar" position_real="0.757813 0.0430556 0.223438 0.0555556" name="maxSpeedProgress">
+            <Property key="RangePosition" value="0"/>
+            <Property key="Range" value="100"/>
+            <Property key="Colour" value="0.703806 0.843213 0.859649"/>
+        </Widget>
+        <Widget type="ProgressBar" skin="ProgressBar" position_real="0.757813 0.205556 0.223438 0.0555556" name="enginePowerProgress">
+            <Property key="Range" value="100"/>
+            <Property key="RangePosition" value="0"/>
+            <Property key="Colour" value="0.836257 0.572176 0.58146"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.640625 0.375 0.0976563 0.0555556" name="traction">
+            <Property key="FontHeight" value="28"/>
+            <Property key="TextColour" value="0.976608 0.972793 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Traction"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="ProgressBar" skin="ProgressBar" position_real="0.757813 0.375 0.226563 0.0555556" name="tractionProgress">
+            <Property key="Range" value="100"/>
+            <Property key="RangePosition" value="0"/>
+            <Property key="Colour" value="0.836257 0.528659 0.361889"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.148438 0.680556 0.375 0.0805556" name="vehicleNameLabel">
+            <Property key="FontHeight" value="45"/>
+            <Property key="Caption" value="Nimrud"/>
+            <Property key="TextColour" value="1 0 0"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="ProgressBar" skin="ProgressBar" position_real="0.757813 0.527778 0.226563 0.0555556" name="accelProgress">
+            <Property key="Colour" value="0.585851 0.888889 0.462638"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.640625 0.531944 0.109375 0.0458333">
+            <Property key="Caption" value="Acceleration"/>
+            <Property key="FontHeight" value="26"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="0.976608 0.972793 0"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

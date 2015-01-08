@@ -1,0 +1,85 @@
+material hud/gauge
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			depth_write off
+			scene_blend alpha_blend
+			cull_hardware none
+		}
+	}
+}
+
+material hud/gauge1 : hud/gauge
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gauges1.png
+			}
+		}
+	}
+}
+
+material hud/gauge2 : hud/gauge
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gauges2.png
+			}
+		}
+	}
+}
+
+material hud/gauge3 : hud/gauge
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gauges3.png
+			}
+		}
+	}
+}
+
+material hud/gauge4 : hud/gauge
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gauges4.png
+			}
+		}
+	}
+}
+
+material hud/gauge5 : hud/gauge
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gauges5.png
+			}
+		}
+	}
+}

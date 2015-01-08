@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" layer="Main" name="background">
+        <Property key="ImageTexture" value="blue_back.jpg"/>
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.125 0.4 0.75 0.2" name="infoLabel">
+            <Property key="Caption" value="Connecting to Master server..."/>
+            <Property key="FontHeight" value="40"/>
+            <Property key="TextColour" value="0 0 0"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.0546875 0.830556 0.210938 0.0930556" name="createRoomButton">
+            <Property key="Caption" value="CREATE A ROOM"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Visible" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.421875 0.830556 0.210938 0.0930556" name="joinRandomButton">
+            <Property key="Caption" value="JOIN RANDOMLY"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Visible" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.757813 0.830556 0.183594 0.0902778" name="joinRoomButton">
+            <Property key="Caption" value="JOIN ROOM"/>
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Visible" value="false"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

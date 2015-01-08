@@ -1,0 +1,37 @@
+material tire_mtlFBXASC032FBXASC091tireFBXASC093
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.603922 0.603922 0.898039 1
+			specular 0 0 0 1 2.56
+
+			texture_unit
+			{
+				texture "Tire texture.jpg"
+			}
+		}
+
+	}
+
+}
+
+
+material wire_177027088FBXASC032FBXASC091Object01FBXASC093
+{
+	technique
+	{
+		pass
+		{
+			specular 0.95 0.95 0.95 1 175.599
+
+			texture_unit
+			{
+				texture car_Diff_end.jpg
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,40 @@
+material Chassis
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			specular 0.0153595 0.0153595 0.0153595 1 25.6
+			emissive 0.8 0.8 0.8 1
+
+			texture_unit
+			{
+				texture nimrud.png
+			}
+		}
+
+	}
+
+}
+
+
+material MaterialFBXASC046001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			specular 0.2 0.2 0.2 1 25.6
+			emissive 0.8 0.8 0.8 1
+
+			texture_unit
+			{
+				texture nimrud.png
+			}
+		}
+
+	}
+
+}

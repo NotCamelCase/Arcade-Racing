@@ -1,0 +1,12 @@
+material transparent
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			scene_blend alpha_blend
+			depth_check on
+		}
+	}
+}

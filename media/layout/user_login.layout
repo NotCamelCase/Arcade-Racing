@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" layer="Main" name="background">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Property key="ImageTexture" value="blue_back.jpg"/>
+        <Widget type="Widget" skin="PanelSkin" position_real="0.25 0.25 0.5 0.479167" name="loginPanel">
+            <Property key="Alpha" value="0.62"/>
+            <Property key="Colour" value="0.248965 0.564571 0.654971"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.046875 0.188406 0.351563 0.130435">
+                <Property key="Caption" value="Player name:"/>
+                <Property key="FontHeight" value="35"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="TextColour" value="1 0.996117 0.00584793"/>
+                <Property key="TextShadow" value="true"/>
+                <Property key="TextShadowColour" value="0.859649 0.658562 0.658562"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.046875 0.504348 0.359375 0.156522">
+                <Property key="Caption" value="Password:"/>
+                <Property key="FontHeight" value="35"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="TextColour" value="1 0.996117 0.00584793"/>
+                <Property key="TextShadow" value="true"/>
+                <Property key="TextShadowColour" value="0.859649 0.658562 0.658562"/>
+            </Widget>
+            <Widget type="EditBox" skin="EditBox" position_real="0.375 0.162319 0.578125 0.176812" name="usernameBox">
+                <Property key="FontHeight" value="30"/>
+                <Property key="TextColour" value="1 1 1"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="MultiLine" value="false"/>
+                <Property key="MaxTextLength" value="22"/>
+            </Widget>
+            <Widget type="EditBox" skin="EditBox" position_real="0.375 0.484058 0.578125 0.188406" name="passwordBox">
+                <Property key="FontHeight" value="30"/>
+                <Property key="TextColour" value="1 1 1"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="Password" value="true"/>
+                <Property key="MultiLine" value="false"/>
+                <Property key="MaxTextLength" value="10"/>
+            </Widget>
+            <Widget type="Button" skin="Button" position_real="0.664063 0.782609 0.2875 0.168116" name="loginButton">
+                <Property key="Caption" value="Login"/>
+                <Property key="FontHeight" value="35"/>
+                <Property key="TextAlign" value="HCenter VCenter"/>
+                <Property key="InheritsAlpha" value="false"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.046875 0.802899 0.578125 0.144928" name="infoLabel">
+                <Property key="FontHeight" value="20"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+                <Property key="Caption" value="Enter login info, will ya?"/>
+                <Property key="TextColour" value="1 0 0"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

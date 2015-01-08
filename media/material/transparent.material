@@ -1,0 +1,9 @@
+
+material transparent
+{
+	receive_shadows off
+	technique OgreMaxTechnique1
+	{
+	}
+
+}

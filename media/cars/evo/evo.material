@@ -1,0 +1,77 @@
+material body_realtime
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 12.298
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture body_diffuse.png
+			}
+		}
+
+	}
+
+}
+
+
+material interior_realtime
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.075 0.075 0.075 1 31.8745
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture interior_diffuse.png
+			}
+		}
+
+	}
+
+}
+
+
+material Szyba_Final
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.598291 0.598291 0.598291 1
+			specular 0.1 0.1 0.1 1 100.141
+		}
+
+	}
+
+}
+
+
+material wheel_realtime
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 12.298
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture wheel_diffuse.png
+			}
+		}
+
+	}
+
+}

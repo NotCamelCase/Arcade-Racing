@@ -1,0 +1,63 @@
+material carrgt___Default1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 15.36
+
+			texture_unit
+			{
+				texture 0000.BMP
+			}
+		}
+
+	}
+
+}
+
+
+
+material carrgt___Default3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0 0 0 1 15.36
+
+			texture_unit
+			{
+				texture 0001.BMP
+			}
+		}
+
+	}
+
+}
+
+
+
+material carrgtmyglass1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.239322 0.239322 0.239322 1
+			specular 0.81 0.81 0.81 1 53.76
+			depth_write off
+			scene_blend add
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" layer="Main" name="background">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Property key="ImageTexture" value="track_1.png"/>
+        <Widget type="ProgressBar" skin="ProgressBar" position_real="0.230469 0.875 0.6 0.0541667" name="loadingBar">
+            <Property key="RangePosition" value="25"/>
+            <Property key="Range" value="100"/>
+            <Property key="Colour" value="0.269621 0.631579 0.330419"/>
+            <Property key="InheritsAlpha" value="false"/>
+            <Property key="Alpha" value="0.75"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.230469 0.9375 0.596875 0.0458333" name="resLabel">
+            <Property key="FontHeight" value="30"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="0 0 0"/>
+            <Property key="Caption" value="Resource"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>
