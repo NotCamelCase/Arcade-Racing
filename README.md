@@ -5,6 +5,6 @@ Please check link below for more details!
 
 http://notcamelcase.github.io/Arcade-Racing/
 
-<a href="http://imgur.com/F07SOBX"><img src="http://i.imgur.com/F07SOBX.jpg?1" title="source: imgur.com" /></a>
+<a href="http://imgur.com/e1B0Jjo"><img src="http://i.imgur.com/e1B0Jjo.jpg" title="source: imgur.com" /></a>
 
 Feel free to contact me: tayfun92_kayhan<b>AT</b>yahoo.com
