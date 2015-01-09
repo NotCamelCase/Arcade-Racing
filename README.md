@@ -7,4 +7,4 @@ http://notcamelcase.github.io/Arcade-Racing/
 
 <a href="http://imgur.com/F07SOBX"><img src="http://i.imgur.com/F07SOBX.jpg?1" title="source: imgur.com" /></a>
 
-Contact me: tayfun92_kayhan<b>AT</b>yahoo.com
+Feel free to contact me: tayfun92_kayhan<b>AT</b>yahoo.com
