@@ -1,7 +1,5 @@
 # Grad Project: Arcade Racing
-Arcade Racing is a 3D racing game with single-player and multiplayer modes.
-
-Please check link below for more details!
+Arcade Racing is a 3D racing game with single-player and multiplayer modes. Please check project page link below for more details!
 
 http://notcamelcase.github.io/Arcade-Racing/
 
