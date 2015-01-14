@@ -39,7 +39,7 @@ SOFTWARE.
 
 using namespace ExitGames;
 
-const char* NetworkManager::PHOTON_APP_ID = "5e205299-19f4-437b-93fc-894c479686bc";
+const char* NetworkManager::PHOTON_APP_ID = "MY_PHOTON_REALTIME_APP_ID";
 const char* NetworkManager::GAME_VERSION = "0.1";
 const char* NetworkManager::GAME_NAME = "Race Sim";
 
